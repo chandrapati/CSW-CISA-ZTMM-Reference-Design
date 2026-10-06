@@ -62,7 +62,7 @@ Cisco Secure Workload (CSW) is a **workload protection platform**. A lightweight
 
 **Console areas:** Investigate (inventory, flows, vulns) · Defend/Segmentation (policy) · Manage (agents) · Platform (connectors) · Administration (audit log)
 
-**Read next:** [Compliance evidence playbook](https://github.com/chandrapati/CSW-Compliance-Mapping/blob/main/docs/compliance-evidence-playbook.md) (full step-by-step) · [About CSW](https://github.com/chandrapati/CSW-Compliance-Mapping/blob/main/docs/about-csw.md) (platform intro)
+**Read next:** [Compliance evidence playbook](https://github.com/chandrapati/CSW-Compliance-Reference-Designs/blob/main/docs/compliance-evidence-playbook.md) (full step-by-step) · [About CSW](https://github.com/chandrapati/CSW-Compliance-Reference-Designs/blob/main/docs/about-csw.md) (platform intro)
 
 ---
 
@@ -262,9 +262,9 @@ Ongoing:    Maturity assessment vs ZTMM scorecard
 
 ## Related Frameworks
 
-- [NIST SP 800-207 — ZTA Seven Tenets](https://github.com/chandrapati/CSW-Compliance-Mapping/blob/main/NIST-800-207/CSW-NIST-800-207-Technical-Runbook.md) — the architectural foundation underneath the maturity model.
-- [NIST SP 800-207A — PDP/PEP/PA/PIP](https://github.com/chandrapati/CSW-Compliance-Mapping/blob/main/NIST-800-207A/CSW-NIST-800-207A-Technical-Runbook.md) — the logical-component view that aligns with the ZTMM "Optimal" tier.
-- [NIST SP 800-53 Rev 5](https://github.com/chandrapati/CSW-Compliance-Mapping/blob/main/NIST-800-53/CSW-NIST-800-53-Technical-Runbook.md) — when CISA ZTMM is being mapped to a federal control baseline.
+- [NIST SP 800-207 — ZTA Seven Tenets](https://github.com/chandrapati/CSW-Compliance-Reference-Designs/blob/main/NIST-800-207/CSW-NIST-800-207-Technical-Runbook.md) — the architectural foundation underneath the maturity model.
+- [NIST SP 800-207A — PDP/PEP/PA/PIP](https://github.com/chandrapati/CSW-Compliance-Reference-Designs/blob/main/NIST-800-207A/CSW-NIST-800-207A-Technical-Runbook.md) — the logical-component view that aligns with the ZTMM "Optimal" tier.
+- [NIST SP 800-53 Rev 5](https://github.com/chandrapati/CSW-Compliance-Reference-Designs/blob/main/NIST-800-53/CSW-NIST-800-53-Technical-Runbook.md) — when CISA ZTMM is being mapped to a federal control baseline.
 
 ---
 
@@ -280,4 +280,4 @@ Ongoing:    Maturity assessment vs ZTMM scorecard
 
 ---
 
-*Part of the Cisco Secure Workload compliance reference-design series. Umbrella index: [CSW-Compliance-Mapping](https://github.com/chandrapati/CSW-Compliance-Mapping).*
+*Part of the Cisco Secure Workload compliance reference-design series. Umbrella index: [CSW-Compliance-Mapping](https://github.com/chandrapati/CSW-Compliance-Reference-Designs).*
