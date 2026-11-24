@@ -71,6 +71,8 @@ Cisco Secure Workload (CSW) is a **workload protection platform**. A lightweight
 
 Execute these phases for **this framework's** compliance boundary. Map exports to control IDs in the **Reporting & Evidence** section below.
 
+![CSW evidence workflow for CISA Zero Trust Maturity Model — the four phases from agent coverage through continuous proof, with the evidence artifact produced at each phase](assets/csw-evidence-workflow.png)
+
 | Phase | Goal | Key CSW actions | Typical duration |
 |-------|------|-----------------|------------------|
 | **1 — Coverage** | Every in-scope workload in CSW | Install agents/connectors; apply compliance labels; create scope | Days 1–10 |
@@ -108,7 +110,7 @@ Execute these phases for **this framework's** compliance boundary. Map exports t
 
 ### What CSW evidence does not replace
 
-Physical access, HR/training records, encryption key management, signed BAAs/vendor contracts, formal pen tests, and assessor attestation still require separate programmes. CSW addresses the **workload-resident** slice: segmentation, flows, process context, vuln reachability, and change drift.
+Physical access, HR/training records, encryption key management, signed vendor and processor contracts, formal pen tests, and assessor attestation still require separate programmes. CSW addresses the **workload-resident** slice: segmentation, flows, process context, vuln reachability, and change drift.
 
 ---
 
@@ -207,12 +209,17 @@ Phase 3 — Optimal (Ongoing):
 ## 6. Scope Architecture for ZTMM
 
 Maturity is claimed per pillar, so the scope tree has to make a pillar
+
+![CISA Zero Trust Maturity Model scope architecture — the recommended CSW scope hierarchy, with label-driven membership so the boundary stays current](assets/csw-scope-architecture.png)
+
 claim provable for a named set of workloads. Build the tree before any
 enforcement work: the Networks and Applications pillars both move from
 Initial to Advanced on the strength of *which* workloads sit inside a
 deny-by-default boundary, not on the existence of policy in general.
 
 ### 6.1 Suggested Scope Architecture
+
+
 
 ```
 Root Scope
